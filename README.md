@@ -11,4 +11,4 @@ Install (copy-paste-enter in your bash/terminal):
 Easy to play – just enter one of these games in your terminal after installing:
 
 - `brain-even` – is number even or not?
-
+– `brain-calc` – are you better than a calculator?
