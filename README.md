@@ -3,13 +3,13 @@
 
 ---
 
-Study project "Brain games", [Hexlet](https://ru.hexlet.io/?ref=50933).
+_Study project "Brain games", [Hexlet](https://ru.hexlet.io/?ref=50933)._
 
-Install (copy-paste-enter in your bash/terminal):
+**Install** (copy-paste-enter in your bash/terminal):
 
 `sudo npm i -g plc_brain_game`
 
-Easy to play – just enter one of these games in your terminal after installing:
+Easy to **play** – just enter one of these games in your terminal after installing:
 
 - `brain-even` – is number even or not?
 
