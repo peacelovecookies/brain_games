@@ -23,10 +23,20 @@ const makeProgression = (first, increment, count) => {
   return result;
 };
 
+const isPrime = (num) => {
+  for (let i = 2; Math.sqrt(num) > i; i += 1) {
+    if (num % i === 0) {
+      return false;
+    }
+  }
+  return num > 1;
+};
+
 export {
   getRandomNum,
   isEven,
   findGCD,
   makeProgression,
   hideElem,
+  isPrime,
 };
