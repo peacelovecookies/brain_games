@@ -1,3 +1,14 @@
-# brain_games
+# Brain games – simple console game
 ## [![Maintainability](https://api.codeclimate.com/v1/badges/c7eb178c4c84aea5abc1/maintainability)](https://codeclimate.com/github/peacelovecookies/brain_games/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/c7eb178c4c84aea5abc1/test_coverage)](https://codeclimate.com/github/peacelovecookies/brain_games/test_coverage) [![Build Status](https://travis-ci.org/peacelovecookies/brain_games.svg?branch=master)](https://travis-ci.org/peacelovecookies/brain_games)
-Study project "Brain games", hexlet.
+
+---
+
+Study project "Brain games", [Hexlet](https://ru.hexlet.io/?ref=50933).
+
+Install (copy-paste-enter in your bash/terminal):
+`sudo npm i -g plc_brain_game`
+
+Easy to play – just enter one of these games in your terminal after installing:
+
+- `brain-even` – is number even or not?
+
