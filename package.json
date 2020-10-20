@@ -21,6 +21,9 @@
   ],
   "author": "peacelovecookies",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/peacelovecookies/brain_games/issues"
   },
