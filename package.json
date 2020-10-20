@@ -3,8 +3,14 @@
   "version": "0.0.1",
   "description": "Use your brains to play these games. Simple in-terminal textual game.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build",
     "test": "jest"
+  },
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/peacelovecookies/brain_games/issues"
   },
-  "homepage": "https://github.com/peacelovecookies/brain_games#readme"
+  "homepage": "https://github.com/peacelovecookies/brain_games#readme",
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1"
+  }
 }
