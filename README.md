@@ -13,3 +13,4 @@ Easy to play – just enter one of these games in your terminal after installing
 - `brain-even` – is number even or not?
 – `brain-calc` – are you better than a calculator?
 - `brain-gcd` – are you good in math? Then try to find [gcd](https://en.wikipedia.org/wiki/Greatest_common_divisor).
+– `brain-progression` – find missed number in progression, if you dare...

@@ -10,4 +10,23 @@ const findGCD = (a, b) => {
   return findGCD(b, a % b);
 };
 
-export { getRandomNum, isEven, findGCD };
+const hideElem = (progression, index) => progression.map((elem, i) => (i === index ? '..' : elem));
+
+const makeProgression = (first, increment, count) => {
+  const result = [first];
+  let current = first;
+  for (let i = 0; i < count - 1; i += 1) {
+    result.push(current + increment);
+    current += increment;
+  }
+
+  return result;
+};
+
+export {
+  getRandomNum,
+  isEven,
+  findGCD,
+  makeProgression,
+  hideElem,
+};
