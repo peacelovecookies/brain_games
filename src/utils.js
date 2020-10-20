@@ -1,4 +1,4 @@
-const getRandomNum = (floor, ceil) => Math.floor(Math.random() * ceil) + floor;
+const getRandomNum = (min, max) => Math.random() * (max - min) + min;
 
 const isEven = (num) => num % 2 === 0;
 
