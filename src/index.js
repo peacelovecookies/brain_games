@@ -5,8 +5,6 @@ const games = fs.readdirSync(`${__dirname}/bin/`)
   .map((filename) => filename.slice(0, -3))
   .filter((game) => game !== 'brain-games');
 
-console.log(games);
-
 export default () => {
   console.log('\n Welcome to the Brain Games!\n');
 
