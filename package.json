@@ -1,6 +1,6 @@
 {
   "name": "plc_brain_games",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use your brains to play these games. Simple in-terminal textual game.",
   "main": "index.js",
   "scripts": {
