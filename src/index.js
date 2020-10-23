@@ -11,5 +11,5 @@ export default () => {
   const name = readlineSync.question('May I have your name, please? ');
   console.log(`Nice to meet you, ${name}. Now let's play!\n`);
 
-  console.log(`Pick your game:\n ${games.join('\n')}`); // TODO: add possibility of picking game right from terminal
+  console.log(`Pick your game:\n${games.join('\n')}`); // TODO: add possibility of picking game right from terminal
 };
